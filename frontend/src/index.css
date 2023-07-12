@@ -1,0 +1,63 @@
+main {
+  min-height: 80vh;
+}
+
+body,
+.modal-background {
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 );
+
+  background-color: #f46c2da6;
+}
+
+.bg-dark {
+  background-color: #f46c2d !important;
+}
+.nav-link {
+  color: #fff !important;
+}
+.nav-link:hover {
+  color: rgb(134, 130, 130) !important;
+}
+
+.bg-menu {
+  border-radius: 40px;
+  min-height: 80vh;
+  overflow: hidden;
+}
+
+.icon-card {
+  transition: 0.5s ease-in-out;
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15);
+}
+.icon-card:hover {
+  transform: scale(1.05);
+}
+.focus-box {
+  border: 1px solid #f46c2d;
+}
+.focus-color {
+  color: #f46c2d;
+}
+.custom-color {
+  color: #f46c2d;
+}
+
+.print-page {
+  width: 302.36px 188.98px !important;
+}
